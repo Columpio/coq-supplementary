@@ -1,6 +1,8 @@
-Require Export BigZ.
+Add LoadPath "/home/columpio/Docs/Coq/coq-supplementary/Bignums".
+Add LoadPath "/home/columpio/Docs/Coq/coq-supplementary/".
 Require Export Id.
 Require Export State.
+Require Export Bignums.BigZ.BigZ.
 
 (* Type of binary operators *)
 Inductive bop : Type :=

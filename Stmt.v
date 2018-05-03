@@ -2,7 +2,9 @@ Require Import List.
 Import ListNotations.
 Require Import Omega.
 
-Require Export BigZ.
+Add LoadPath "/home/columpio/Docs/Coq/coq-supplementary/Bignums".
+Add LoadPath "/home/columpio/Docs/Coq/coq-supplementary/".
+Require Export Bignums.BigZ.BigZ.
 Require Export Id.
 Require Export State.
 Require Export Expr.
